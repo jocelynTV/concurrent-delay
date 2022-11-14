@@ -1,6 +1,6 @@
 {
   "name": "concurrent-delay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A class that provides a way to delay a task",
   "main": "lib/index.js",
   "typed": "lib/index.d.ts",
