@@ -1,0 +1,46 @@
+{
+  "name": "concurrent-delay",
+  "version": "1.0.0",
+  "description": "A class that provides a way to delay a task",
+  "main": "lib/index.js",
+  "typed": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "dev": "nodemon src/index.ts",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoatv92/concurrent-delay.git"
+  },
+  "keywords": [
+    "nodejs",
+    "delay",
+    "throttle",
+    "limit",
+    "concurrent",
+    "parallel"
+  ],
+  "homepage": "https://github.com/khoatv92/concurrent-delay#README",
+  "author": "Khoa Tran <khoatv.cntt@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "ioredis": "^5.2.4",
+    "redis": "^4.4.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
