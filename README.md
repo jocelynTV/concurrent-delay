@@ -24,7 +24,7 @@ const cDelay = new DelayRequest({ host: 'localhost', port: 6379 });
 // Job delay every 2 seconds takes effect for 60 seconds
 app.get('/task', async (req, res) => {
   await cDelay.delay({ ms: 2000, ttl: 60, key: 'abc' });
-  res.send(200, 'ok')
+  res.send('ok');
 });
 
 ```
